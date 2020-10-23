@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/see_how_itworks_constraints_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeeHowItWorks"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/how_it_works_textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="5dp"
+        android:adjustViewBounds="true"
+        android:text="How It Works"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/see_how_it_works_scroll"
+        app:layout_constraintEnd_toEndOf="@+id/see_how_it_works_scroll"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/see_how_it_works_scroll"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_weight="1" />
+
+    <ScrollView
+        android:id="@+id/see_how_it_works_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="529dp"
+        android:layout_above="@+id/see_how_itworks_constraints_layout"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/how_it_works_textView">
+
+        <RelativeLayout
+            android:id="@+id/see_how_it_works_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/see_how_it_works_scroll"
+            tools:layout_editor_absoluteY="151dp">
+
+            <TextView
+                android:id="@+id/why_us_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="0dp"
+                android:text="WHY US? (Apart from the benefits of planting trees)"
+                android:textSize="28sp"></TextView>
+
+            <TextView
+                android:id="@+id/why_us_points_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/why_us_TextView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="0dp"
+                android:hint="@string/How_it_Works_Txt"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:id="@+id/why_not_us_TxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_below="@+id/why_us_points_TV"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="212dp"
+                android:text="Why Not Us?"
+                android:textSize="28sp"></TextView>
+
+            <TextView
+                android:id="@+id/why_not_us_points_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/why_not_us_TxtView"
+                android:hint="@string/Why_not_us_Txt"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:id="@+id/working_procedure_TxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/why_not_us_points_TV"
+                android:hint="@string/Working_Procedure"
+                android:textSize="20sp"></TextView>
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

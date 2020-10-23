@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp">
+
+        <TextView
+            android:id="@+id/tv_trans_Date"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="0dp"
+            android:textAlignment="gravity"
+            android:textSize="@dimen/dimen_24sp"/>
+
+        <TextView
+            android:id="@+id/tv_trans_Amount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/tv_trans_Date"
+            android:textAlignment="gravity"
+            android:textSize="@dimen/dimen_24sp"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:text="Date:  "
+            android:textAlignment="center"
+            android:textSize="@dimen/dimen_24sp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_marginTop="@dimen/dimen_50dp"
+            android:text="Amount:  "
+            android:textAlignment="center"
+            android:textSize="@dimen/dimen_24sp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

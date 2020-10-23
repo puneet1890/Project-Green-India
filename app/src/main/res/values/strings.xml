@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Project Green India</string>
+    <string name="btn_index">HomePage</string>
+    <string name="btn_home_reg">Get Started</string>
+    <string name="btn_home_login">Login</string>
+    <string name="et_Reg_Name">Name</string>
+    <string name="et_Reg_Email">Email</string>
+    <string name="et_Reg_MobileNo">Mobile No</string>
+    <string name="et_Reg_RefferalCode">Referral Code</string>
+    <string name="btn_Reg_Register">Register</string>
+    <string name="btn_Reg_Login">Login</string>
+    <string name="et_Login_Email">Email</string>
+    <string name="et_Login_Password">Password</string>
+    <string name="btn_Login_Login">Login</string>
+    <string name="btn_Login_ForgotPassword">Forgot Password</string>
+    <string name="title_activity_user_dashboard">UserDashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_myPlant">My Plant</string>
+    <string name="title_wallet">Wallet</string>
+    <string name="title_discover">Discover</string>
+    <string name="et_FP_Password">Password</string>
+    <string name="et_FP_CPassword">Confirm Password</string>
+    <string name="btn_FP_ResetPassword">Reset Password</string>
+    <string name="btn_Join_Contribute">Join The Community/Contribute</string>
+    <string name="btn_InviteAndEarn">Invite And Earn</string>
+    <string name="btn_See_It_Works">See How It Works</string>
+    <string name="title_activity_user__dashboard">User_Dashboard</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="tv_Info">The Selected Plant is assured to be planted within XX:XX hours Regards, </string>
+    <string name="btn_payment">Make Payment</string>
+    <string name="tv_Msg">Select Your Plant</string>
+    <string name="btn_InvitedEarn">Invite</string>
+    <string name="et_IE_RefferalCode">Refferal Code</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_PlantDetailsFrag">My Plants</string>
+    <string name="et_MailTo">To</string>
+    <string name="et_Reg_Pass">Password</string>
+
+    <string name="How_it_Works_Txt">
+        1) Time saving. \n
+        2) Serving the motive of “PLANT PER CITIZEN”. \n
+        3) Trying to Involving each and every citizens including SPECIALLY ABLED CITIZENS with social desires. \n
+        4) Also creating a source of income irrespective of small or big. \n
+        5) Proving a living habit for animals,birds and other organisms since this planet is not only a home for humans. \n
+        6) Carrying out awareness programs related to global cause and actions to be taken. \n
+        7) Providing job opportunities in various ways including ILLITERATES. \n
+        8) Encouraging and motivating present youth’s to participate in development programs. \n
+        9) Supporting the cause of ‘CAUVER CALLING’, ’RALLY FOR RIVERS’, etc \n
+        10) Indirectly supporting in compensating for the plant losses due to natural,artificial disasters, bush fires losses all around the globe. \n
+        11) Bringing the practical realty into picture is the most important thing , i.e to make sure there is a hand of each and every citizen of the nation to involve. Therefore we are trying to bring UNITY among all which is our key to success.\n\n
+
+        - Although, when we are creating a path to indulge each and every individual of our nation to involve for a global cause , to create a better place , to create a better future. \n
+
+</string>
+
+    <string name="Why_not_us_Txt">•Community is a social startup community initiated by small number of STUDENTS FORCE focused on fulfilling the motives of PLANT PER CITIZEN, environmental protection , reforestation and World\'s Natural wealth development programs. \n
+        •The main objective of this project is to provide a platform for each and every citizens of India to individually indulge socially or physically or financially in worlds environmental development through tree plantation programs and to the people who do not have time to plant trees or have time to care and for helpless specially abled citizens with good desires, by providing a digital platform to plant from home from our community app. \n
+        •You can see the number of trees you\'ve contributed to plant and get the status of it from the app, for example - the picture of the plant, growth,location of the plant/tree, etc. \n
+        •It is the responsibility of each and every concerned citizens to plant trees which helps as a resource provider and also reducing all kinds of pollutions and benefitting us in various ways. \n
+        •By joining hands with our community, you can give your priceless contributions towards nature and can also create additional income by becoming a tree buddy  by creating awareness in various ways .Therefore, Everyone are humbly requested to share this app with each and every citizen of the country. \n
+        •We make sure your each every contribution will be utilized only for the global cause through plantation programs according to the terms and conditions. \n
+    </string>
+
+
+    <string name="Working_Procedure">Working procedures: \n
+        1)How to plant trees ? \n
+        To plant a tree, Initially become our community member by choosing a subscription plan and a first plant suggested will be planted for free. To continue plantations go to the contribution tab in the home screen of the app, in which you can suggest a tree and contribute as per your preference , as per the contribution made, feasible number for plantations will be made and the status of it will be updated within assured period. \n\n
+
+        2)How to MONITOR the planted tree ? \n
+        To see the growth of the planted tree, go to the my plants tab in the app, where you can see the growth of your tree with pictures and location. \n \n
+
+        3)Become a “tree buddy”, plant trees, earn money. how ? \n
+        It is mandatory to be a member of the community so at least one tree will be planted as your count and then an individual can become a tree buddy . After becoming a tree buddy , you will get a tree buddy  referral code which you can share with your friends and family by awaring them with importance of the cause to plant a tree by becoming a member through our app. You will continue to get Rs. XX  for the first tree planted by the different individuals whom you have invited to become a member to join hands for the cause with your referral code. \n\n
+
+        4)How to partner with us ? \n
+        Click on the “Partner with us” option in home screen and suggest your fields of interest and leave a description and submit your response ,we will get in touch with you as soon as possible. \n\n
+
+        5)Events ? \n
+        We are trying to involve all the concerned citizens (mainly the youth/Students) of the nation in social welfare development programs which is the prime thing missing in the present generation ,by organizing various creative and most interactive contests with exciting cash prizes. All the information’s related to current and upcoming events and their registrations will be kept posted in the app. \n\n
+
+        6)Discover ? \n
+        It is a responsibility and right of every individual to have the knowledge and to know the importance of planting trees and to grow,save and protect the nature and greenery of the planet. Our community provides a way to empower themselves with practical knowledge regarding the environmental welfare issues or benefits by providing information’s related to types of plants, their importance and benefits, and also by providing a real time unknown facts to people to keep track of related current affairs which will be provided as feeds in the discover section. \n \n
+    </string>
+    <string name="et_userProfile_phoneNum">9876543210</string>
+    <string name="et_userProfile_Email">suresh@gmail.com</string>
+    <string name="et_userProfile_AboutMe">I Love Commuplant</string>
+    <string name="et_Contribute_Amount">$ Amount </string>
+    <string name="et_help_query">WRITE YOUR QUERY</string>
+    <string name="swtich_land_partner">Land Partner \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</string>
+    <string name="swtich_plantation_partner">Plantation Partner \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</string>
+    <string name="swtich_maintenance_partner">Maintenance Partner</string>
+    <string name="swtich_promotional_partner">Promotional Partner</string>
+    <string name="swtich_SocialMedia_partner">Social media Partner</string>
+    <string name="swtich_EventsVolunteer">Event\'s Volunteer</string>
+    <string name="swtich_Others">Others</string>
+    <string name="et_Partner_Description">Description</string>
+
+</resources>

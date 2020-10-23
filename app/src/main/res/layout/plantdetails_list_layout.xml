@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/plantDetails_imgView"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_plantName"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/plantDetails_imgView"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_plantLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/tv_plantName"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="75dp"
+            android:layout_toEndOf="@+id/plantDetails_imgView"
+            android:text="TextView"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_plantedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/tv_plantLocation"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="115dp"
+            android:layout_toEndOf="@+id/plantDetails_imgView"
+            android:text="TextView"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_plantContributedStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/tv_plantedDate"
+            android:layout_alignStart="@+id/tv_plantedDate"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="155dp"
+            android:text="TextView"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="75dp"
+            android:text="PLACE:-"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="115dp"
+            android:text="DATE:-"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="155dp"
+            android:text="PAID:-"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_35dp"
+            android:text="PLANTS:-"
+            android:layout_marginStart="150dp"
+            android:textSize="20sp"
+            android:layout_marginTop="35dp" />
+
+        <TextView
+            android:id="@+id/tv_noOfPlants"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="@dimen/dimen_35dp"
+            android:text="TextView"
+            android:textSize="20sp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
